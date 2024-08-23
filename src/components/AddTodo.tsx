@@ -51,7 +51,7 @@ const AddTodo = () => {
         setTodos(responseTodos);
         resetAdd();
       } catch (error) {
-        console.error("Error adding todo:", error);
+        console.error("Ошибка :", error);
       }
     }
   };
